@@ -11,14 +11,21 @@
 @interface ViewController ()
 
 @end
-
+BOOL blinkStatus;
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+   self.timer = [NSTimer scheduledTimerWithTimeInterval:0.7 target:self selector:@selector(blink) userInfo:nil repeats:YES];
+
 }
 
+
+- (void)blink {
+
+    [self.tap setHidden:(!self.tap.hidden)];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

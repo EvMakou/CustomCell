@@ -9,12 +9,27 @@
 /* Begin PBXBuildFile section */
 		7189FA431F83DA00005E950D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7189FA421F83DA00005E950D /* main.m */; };
 		7189FA461F83DA00005E950D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7189FA451F83DA00005E950D /* AppDelegate.m */; };
-		7189FA491F83DA00005E950D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7189FA481F83DA00005E950D /* ViewController.m */; };
 		7189FA4C1F83DA01005E950D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA4A1F83DA01005E950D /* Main.storyboard */; };
 		7189FA4E1F83DA01005E950D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA4D1F83DA01005E950D /* Assets.xcassets */; };
 		7189FA511F83DA01005E950D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA4F1F83DA01005E950D /* LaunchScreen.storyboard */; };
 		7189FA5C1F83DA01005E950D /* CustomCellsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7189FA5B1F83DA01005E950D /* CustomCellsTests.m */; };
 		7189FA671F83DA01005E950D /* CustomCellsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7189FA661F83DA01005E950D /* CustomCellsUITests.m */; };
+		7189FA791F83DB2D005E950D /* MoviesTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7189FA781F83DB2D005E950D /* MoviesTableViewController.m */; };
+		7189FA7F1F83E057005E950D /* Doom.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA7E1F83E057005E950D /* Doom.jpg */; };
+		7189FA811F83E0EF005E950D /* GTA5.png in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA801F83E0EF005E950D /* GTA5.png */; };
+		7189FA831F83E16F005E950D /* FIFA17.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA821F83E16F005E950D /* FIFA17.jpg */; };
+		7189FA861F83E1E8005E950D /* GameTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7189FA851F83E1E8005E950D /* GameTableViewCell.m */; };
+		7189FA891F83EAA5005E950D /* Game.m in Sources */ = {isa = PBXBuildFile; fileRef = 7189FA881F83EAA5005E950D /* Game.m */; };
+		7189FA8B1F83F6E7005E950D /* dishonored2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA8A1F83F6E7005E950D /* dishonored2.jpg */; };
+		7189FA8D1F83F6EC005E950D /* Witcher.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA8C1F83F6EC005E950D /* Witcher.jpeg */; };
+		7189FA8F1F83F7D0005E950D /* DeusEx.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA8E1F83F7D0005E950D /* DeusEx.jpg */; };
+		7189FA911F83F960005E950D /* WD2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA901F83F960005E950D /* WD2.jpg */; };
+		7189FA931F83FA70005E950D /* Horizon.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA921F83FA70005E950D /* Horizon.jpeg */; };
+		7189FA951F83FBF4005E950D /* uncharted.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA941F83FBF4005E950D /* uncharted.jpeg */; };
+		7189FA991F84005E005E950D /* MS4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 7189FA981F84005E005E950D /* MS4.jpeg */; };
+		7189FA9C1F8416E4005E950D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7189FA9B1F8416E4005E950D /* ViewController.m */; };
+		7189FAA41F8422B0005E950D /* power.png in Resources */ = {isa = PBXBuildFile; fileRef = 7189FAA31F8422B0005E950D /* power.png */; };
+		7189FAA61F8423EF005E950D /* wall.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 7189FAA51F8423EF005E950D /* wall.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +54,6 @@
 		7189FA421F83DA00005E950D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		7189FA441F83DA00005E950D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7189FA451F83DA00005E950D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		7189FA471F83DA00005E950D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		7189FA481F83DA00005E950D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		7189FA4B1F83DA01005E950D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7189FA4D1F83DA01005E950D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7189FA501F83DA01005E950D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +64,26 @@
 		7189FA621F83DA01005E950D /* CustomCellsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CustomCellsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7189FA661F83DA01005E950D /* CustomCellsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCellsUITests.m; sourceTree = "<group>"; };
 		7189FA681F83DA01005E950D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7189FA771F83DB2D005E950D /* MoviesTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MoviesTableViewController.h; sourceTree = "<group>"; };
+		7189FA781F83DB2D005E950D /* MoviesTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MoviesTableViewController.m; sourceTree = "<group>"; };
+		7189FA7E1F83E057005E950D /* Doom.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Doom.jpg; sourceTree = "<group>"; };
+		7189FA801F83E0EF005E950D /* GTA5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = GTA5.png; sourceTree = "<group>"; };
+		7189FA821F83E16F005E950D /* FIFA17.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = FIFA17.jpg; sourceTree = "<group>"; };
+		7189FA841F83E1E8005E950D /* GameTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameTableViewCell.h; sourceTree = "<group>"; };
+		7189FA851F83E1E8005E950D /* GameTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameTableViewCell.m; sourceTree = "<group>"; };
+		7189FA871F83EAA5005E950D /* Game.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Game.h; sourceTree = "<group>"; };
+		7189FA881F83EAA5005E950D /* Game.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Game.m; sourceTree = "<group>"; };
+		7189FA8A1F83F6E7005E950D /* dishonored2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = dishonored2.jpg; sourceTree = "<group>"; };
+		7189FA8C1F83F6EC005E950D /* Witcher.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Witcher.jpeg; sourceTree = "<group>"; };
+		7189FA8E1F83F7D0005E950D /* DeusEx.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = DeusEx.jpg; sourceTree = "<group>"; };
+		7189FA901F83F960005E950D /* WD2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = WD2.jpg; sourceTree = "<group>"; };
+		7189FA921F83FA70005E950D /* Horizon.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Horizon.jpeg; sourceTree = "<group>"; };
+		7189FA941F83FBF4005E950D /* uncharted.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = uncharted.jpeg; sourceTree = "<group>"; };
+		7189FA981F84005E005E950D /* MS4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = MS4.jpeg; sourceTree = "<group>"; };
+		7189FA9A1F8416E4005E950D /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7189FA9B1F8416E4005E950D /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7189FAA31F8422B0005E950D /* power.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = power.png; sourceTree = "<group>"; };
+		7189FAA51F8423EF005E950D /* wall.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wall.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,12 +134,12 @@
 		7189FA401F83DA00005E950D /* CustomCells */ = {
 			isa = PBXGroup;
 			children = (
-				7189FA441F83DA00005E950D /* AppDelegate.h */,
-				7189FA451F83DA00005E950D /* AppDelegate.m */,
-				7189FA471F83DA00005E950D /* ViewController.h */,
-				7189FA481F83DA00005E950D /* ViewController.m */,
+				7189FAA71F8439B1005E950D /* AppDelegate */,
+				7189FAA81F8439D4005E950D /* Games */,
+				7189FAA91F8439ED005E950D /* Start */,
 				7189FA4A1F83DA01005E950D /* Main.storyboard */,
 				7189FA4D1F83DA01005E950D /* Assets.xcassets */,
+				7189FA7D1F83E03B005E950D /* Games Poster */,
 				7189FA4F1F83DA01005E950D /* LaunchScreen.storyboard */,
 				7189FA521F83DA01005E950D /* Info.plist */,
 				7189FA411F83DA00005E950D /* Supporting Files */,
@@ -138,6 +171,56 @@
 				7189FA681F83DA01005E950D /* Info.plist */,
 			);
 			path = CustomCellsUITests;
+			sourceTree = "<group>";
+		};
+		7189FA7D1F83E03B005E950D /* Games Poster */ = {
+			isa = PBXGroup;
+			children = (
+				7189FA8C1F83F6EC005E950D /* Witcher.jpeg */,
+				7189FA821F83E16F005E950D /* FIFA17.jpg */,
+				7189FAA31F8422B0005E950D /* power.png */,
+				7189FA8A1F83F6E7005E950D /* dishonored2.jpg */,
+				7189FAA51F8423EF005E950D /* wall.jpg */,
+				7189FA801F83E0EF005E950D /* GTA5.png */,
+				7189FA941F83FBF4005E950D /* uncharted.jpeg */,
+				7189FA901F83F960005E950D /* WD2.jpg */,
+				7189FA921F83FA70005E950D /* Horizon.jpeg */,
+				7189FA981F84005E005E950D /* MS4.jpeg */,
+				7189FA8E1F83F7D0005E950D /* DeusEx.jpg */,
+				7189FA7E1F83E057005E950D /* Doom.jpg */,
+			);
+			name = "Games Poster";
+			sourceTree = "<group>";
+		};
+		7189FAA71F8439B1005E950D /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				7189FA441F83DA00005E950D /* AppDelegate.h */,
+				7189FA451F83DA00005E950D /* AppDelegate.m */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+		7189FAA81F8439D4005E950D /* Games */ = {
+			isa = PBXGroup;
+			children = (
+				7189FA871F83EAA5005E950D /* Game.h */,
+				7189FA881F83EAA5005E950D /* Game.m */,
+				7189FA771F83DB2D005E950D /* MoviesTableViewController.h */,
+				7189FA781F83DB2D005E950D /* MoviesTableViewController.m */,
+				7189FA841F83E1E8005E950D /* GameTableViewCell.h */,
+				7189FA851F83E1E8005E950D /* GameTableViewCell.m */,
+			);
+			name = Games;
+			sourceTree = "<group>";
+		};
+		7189FAA91F8439ED005E950D /* Start */ = {
+			isa = PBXGroup;
+			children = (
+				7189FA9A1F8416E4005E950D /* ViewController.h */,
+				7189FA9B1F8416E4005E950D /* ViewController.m */,
+			);
+			name = Start;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -246,9 +329,21 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7189FA951F83FBF4005E950D /* uncharted.jpeg in Resources */,
+				7189FAA41F8422B0005E950D /* power.png in Resources */,
 				7189FA511F83DA01005E950D /* LaunchScreen.storyboard in Resources */,
 				7189FA4E1F83DA01005E950D /* Assets.xcassets in Resources */,
+				7189FA931F83FA70005E950D /* Horizon.jpeg in Resources */,
+				7189FA811F83E0EF005E950D /* GTA5.png in Resources */,
+				7189FA8B1F83F6E7005E950D /* dishonored2.jpg in Resources */,
+				7189FA7F1F83E057005E950D /* Doom.jpg in Resources */,
 				7189FA4C1F83DA01005E950D /* Main.storyboard in Resources */,
+				7189FA8D1F83F6EC005E950D /* Witcher.jpeg in Resources */,
+				7189FA991F84005E005E950D /* MS4.jpeg in Resources */,
+				7189FAA61F8423EF005E950D /* wall.jpg in Resources */,
+				7189FA911F83F960005E950D /* WD2.jpg in Resources */,
+				7189FA831F83E16F005E950D /* FIFA17.jpg in Resources */,
+				7189FA8F1F83F7D0005E950D /* DeusEx.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,9 +368,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7189FA491F83DA00005E950D /* ViewController.m in Sources */,
+				7189FA9C1F8416E4005E950D /* ViewController.m in Sources */,
+				7189FA791F83DB2D005E950D /* MoviesTableViewController.m in Sources */,
 				7189FA461F83DA00005E950D /* AppDelegate.m in Sources */,
+				7189FA891F83EAA5005E950D /* Game.m in Sources */,
 				7189FA431F83DA00005E950D /* main.m in Sources */,
+				7189FA861F83E1E8005E950D /* GameTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
